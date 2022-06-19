@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="todoCss.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bangers&family=Beau+Rivage&family=Bebas+Neue&family=Comforter&family=Dancing+Script&family=Fascinate&family=Festive&family=Indie+Flower&family=Island+Moments&family=Kanit:wght@300&family=Lobster&family=Montserrat:wght@300&family=Neonderthaw&family=Orelega+One&family=Pacifico&family=Permanent+Marker&family=Rowdies&family=Rubik+Beastly&family=Sacramento&family=Satisfy&family=Supermercado+One&family=Syne+Tactile&family=Yellowtail&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" media='screen and (max-width: 550px)' href="responsiveAllphones.css"/>
+</head>
+
+<body>
+    <div class="heading-division">
+        <div id="heading">TO-<span id="headingSpan">DO</span> List</div>
+        <h1 class="quote">" Time Is Money "</h1>
+        <div id="form-division">
+            <form action="" onsubmit="addWork(event)">
+                <input type="text" id="writeTheWork" placeholder="Add Work">
+                <button type="submit" id="workBtn">Submit</button>
+                <button id="resetBtn">Reset</button>
+            </form>
+        </div>
+    </div>
+    <div class="work-division" id="list">
+        <!-- Work Will be added here -->
+    </div>
+    <!-- Script -->
+    <script src="todo.js"></script>
+</body>
+
+</html>
